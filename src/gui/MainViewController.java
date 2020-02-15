@@ -35,7 +35,7 @@ public class MainViewController implements Initializable{
 	
 	@FXML
 	public void onMenuItemDepartamentoAcction() {
-		System.out.println("onMenuItemDepartamentoAcction");
+		LoadView("/gui/DepartamentoLista.fxml");
 
 	}
 	
